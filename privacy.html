@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.png">
 <title>Privacy policy · The Desk Crew</title>
 <style>
   body { margin: 0; background: #fff; color: #141414; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 56px 24px 80px; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 24px 80px; }
   h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
   h2 { font-size: 18px; margin: 36px 0 8px; }
   p, li { color: #3a3a3a; }
@@ -18,9 +19,25 @@
   table { border-collapse: collapse; width: 100%; font-size: 14px; margin-top: 8px; }
   th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid #e6e6e6; }
   th { color: #6b6b6b; font-weight: 600; }
+  /* top navigation, same on every page */
+  .nav { position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,.94); backdrop-filter: blur(8px); border-bottom: 1px solid #E2E2E2; }
+  .nav-in { max-width: 960px; margin: 0 auto; padding: 10px 24px; display: flex; align-items: center; gap: 20px; }
+  .brand { display: flex; align-items: center; gap: 10px; color: #111; text-decoration: none; font-weight: 700; font-size: 16px; margin-right: auto; }
+  .brand img { width: 32px; height: 32px; display: block; }
+  .nav a.link { color: #3a3a3a; text-decoration: none; font-size: 15px; font-weight: 500; }
+  .nav a.link:hover, .nav a.link[aria-current="page"] { color: #111; text-decoration: underline; text-underline-offset: 4px; }
+  .nav a.cta { background: #111; color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 10px; white-space: nowrap; }
+  .nav a:focus-visible { outline: 3px solid #111; outline-offset: 3px; border-radius: 6px; }
+  @media (max-width: 520px) { .brand span { display: none; } .nav-in { gap: 14px; padding: 10px 16px; } }
 </style>
 </head>
 <body>
+<header class="nav"><nav class="nav-in" aria-label="Main">
+  <a class="brand" href="./"><img src="icon.png" alt=""><span>The Desk Crew</span></a>
+  <a class="link" href="./">Home</a>
+  <a class="link" href="privacy.html" aria-current="page">Privacy</a>
+  <a class="cta" href="https://chromewebstore.google.com/detail/cblpmfijmngdgfdpecnifgbmcfcnkeip" target="_blank" rel="noopener">Add to Chrome</a>
+</nav></header>
 <main>
   <h1>Privacy policy</h1>
   <p class="muted">The Desk Crew: healthy desk habits · Last updated November 24, 2026</p>
@@ -62,6 +79,7 @@
   <h2>Changes and contact</h2>
   <p>If this policy changes, the date above changes with it, and the new version ships with an update to the extension.</p>
   <p>The Desk Crew is made by Vinu Hopman. Questions: <a href="mailto:vinu.hopman@gmail.com">vinu.hopman@gmail.com</a>, or through <a href="https://vinuhopman.framer.website/" target="_blank" rel="noopener">vinuhopman.framer.website</a>.</p>
+  <p class="muted" style="margin-top:40px"><a href="./">← Back to The Desk Crew</a></p>
 </main>
 </body>
 </html>
