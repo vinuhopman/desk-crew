@@ -37,6 +37,16 @@
   .stage { background: var(--stage); border-radius: 20px; padding: 14px 14px 6px; margin-bottom: 32px; }
   .scene { display: block; width: 100%; height: auto; }
   .scene .name { font: 700 14px Inter, -apple-system, "Segoe UI", sans-serif; fill: #111; }
+  /* reading order: title → one-line thanks → the one ask → small print */
+  h1 { margin: 0 0 8px; }
+  .lead { font-size: 19px; color: #3a3a3a; margin: 0 0 32px; }
+  .ask { border: 1px solid var(--border); border-radius: 16px; padding: 24px 24px 28px; }
+  .ask h2 { font-size: 20px; line-height: 1.3; margin: 0 0 4px; }
+  .ask p { margin: 0 0 18px; color: var(--muted); }
+  .ask .btn { margin-top: 0; }
+  .meta { margin-top: 40px; font-size: 14px; line-height: 1.5; color: var(--muted); }
+  .meta p { margin: 0 0 6px; color: var(--muted); }
+  .meta a { color: var(--ink); }
 </style>
 </head>
 <body>
@@ -62,10 +72,18 @@
     </svg>
   </div>
   <h1>Sorry to see you go</h1>
-  <p>Thank you for giving The Desk Crew a try. Dokie, Cleo and Cola hope the breaks did you some good.</p>
-  <p>I’d really appreciate your feedback. What didn’t work for you, or what would have made you stay? Even a sentence helps me make it better.</p>
-  <a class="btn" href="contact.html">Share feedback with Vinu</a>
-  <p class="small">The extension and everything it stored have been removed from Chrome. Nothing was ever sent anywhere.<br>Changed your mind? <a href="./">Visit The Desk Crew page</a> · <a href="privacy.html">Privacy policy</a></p>
+  <p class="lead">Thanks for giving The Desk Crew a try.</p>
+
+  <section class="ask">
+    <h2>What could be better?</h2>
+    <p>Even one sentence helps me improve it.</p>
+    <a class="btn" href="contact.html">Share feedback with Vinu</a>
+  </section>
+
+  <div class="meta">
+    <p>Everything the extension stored is gone. Nothing was ever sent anywhere.</p>
+    <p>Changed your mind? <a href="./">Visit The Desk Crew</a> · <a href="privacy.html">Privacy policy</a></p>
+  </div>
 </main>
 </body>
 </html>
