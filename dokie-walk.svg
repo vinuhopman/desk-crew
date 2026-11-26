@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="255" viewBox="40 80 240 255" fill="none">
+<style>
+[class]{animation-duration:1.2s;animation-iteration-count:infinite;animation-fill-mode:both;}
+@keyframes k_a0y { 0% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 25% { transform: translate(0px,-3px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 75% { transform: translate(0px,-3px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a0y{transform-box:view-box;transform-origin:132px 229px;animation-name:k_a0y;}
+@keyframes k_a1y { 0% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 25% { transform: translate(0px,-3px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 75% { transform: translate(0px,-3px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a1y{transform-box:view-box;transform-origin:226px 240px;animation-name:k_a1y;}
+@keyframes k_a1r { 0% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 25% { transform: rotate(-12deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 75% { transform: rotate(12deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a1r{transform-box:view-box;transform-origin:226px 240px;animation-name:k_a1r;}
+@keyframes k_a2r { 0% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: rotate(34deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a2r{transform-box:view-box;transform-origin:141.5px 262px;animation-name:k_a2r;}
+@keyframes k_a3r { 0% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: rotate(-34deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a3r{transform-box:view-box;transform-origin:207.5px 262px;animation-name:k_a3r;}
+@keyframes k_a4y { 0% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 25% { transform: translate(0px,-3px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 75% { transform: translate(0px,-3px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a4y{transform-box:view-box;transform-origin:172px 248px;animation-name:k_a4y;}
+@keyframes k_a5r { 0% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: rotate(-38deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a5r{transform-box:view-box;transform-origin:123.5px 262px;animation-name:k_a5r;}
+@keyframes k_a6r { 0% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: rotate(38deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a6r{transform-box:view-box;transform-origin:191.5px 262px;animation-name:k_a6r;}
+@keyframes k_a7y { 0% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 25% { transform: translate(0px,-3px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 75% { transform: translate(0px,-3px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(0px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a7y{transform-box:view-box;transform-origin:118.186px 193.76px;animation-name:k_a7y;}
+@keyframes k_a7r { 0% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 25% { transform: rotate(-3deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 75% { transform: rotate(-3deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: rotate(0deg); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a7r{transform-box:view-box;transform-origin:118.186px 193.76px;animation-name:k_a7r;}
+@keyframes k_a8o { 0% { opacity: 0.8; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { opacity: 0.3; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { opacity: 0.8; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } }
+.a8o{transform-box:view-box;transform-origin:243px 285px;animation-name:k_a8o;}
+@media (prefers-reduced-motion: reduce){[class]{animation:none!important}}
+</style><g clip-path="url(#clip0_2_6)">
+<g class="a0y"><g id="a0"><path d="M112 212H144L152 242L118 246L112 212Z" fill="#2A2523" />
+</g></g><path opacity="0.07" d="M168 315C211.078 315 246 312.314 246 309C246 305.686 211.078 303 168 303C124.922 303 90 305.686 90 309C90 312.314 124.922 315 168 315Z" fill="black" />
+<g class="a1y"><g class="a1r"><g id="a1"><path d="M226 240C242 230 246 214 240 202" stroke-width="9" stroke-linecap="round" stroke="#2A2523" />
+</g></g></g><g class="a2r"><g id="a2"><path d="M150.225 265.22C149.084 261.238 144.93 258.936 140.949 260.077C136.967 261.219 134.665 265.373 135.807 269.354L143.8 297.231C144.942 301.212 149.095 303.515 153.077 302.373C157.058 301.231 159.361 297.078 158.219 293.096L150.225 265.22Z" fill="#3A3330" />
+<path d="M154.593 307.66C159.902 306.138 163.527 302.536 162.689 299.617C161.852 296.697 156.87 295.564 151.561 297.086C146.252 298.608 142.627 302.209 143.464 305.129C144.301 308.049 149.284 309.182 154.593 307.66Z" fill="#C88A4E" />
+</g></g><g class="a3r"><g id="a3"><path d="M212.933 269.548C214.213 265.609 212.057 261.378 208.118 260.098C204.179 258.818 199.947 260.974 198.667 264.913L189.706 292.494C188.426 296.433 190.582 300.664 194.521 301.944C198.461 303.224 202.692 301.068 203.972 297.129L212.933 269.548Z" fill="#3A3330" />
+<path d="M192.822 307.175C198.074 308.882 203.093 307.923 204.032 305.035C204.97 302.146 201.473 298.42 196.221 296.714C190.968 295.007 185.949 295.965 185.011 298.854C184.072 301.743 187.569 305.469 192.822 307.175Z" fill="#C88A4E" />
+</g></g><g class="a4y"><g id="a4"><path d="M172 278C204.033 278 230 264.569 230 248C230 231.431 204.033 218 172 218C139.967 218 114 231.431 114 248C114 264.569 139.967 278 172 278Z" fill="#2A2523" />
+<path d="M130 265C137.18 265 143 257.389 143 248C143 238.611 137.18 231 130 231C122.82 231 117 238.611 117 248C117 257.389 122.82 265 130 265Z" fill="#C88A4E" />
+</g></g><g class="a5r"><g id="a5"><path d="M135.667 269.733C137.083 265.841 135.076 261.537 131.184 260.121C127.292 258.704 122.988 260.711 121.571 264.603L111.653 291.854C110.236 295.747 112.243 300.05 116.135 301.467C120.027 302.884 124.331 300.877 125.748 296.985L135.667 269.733Z" fill="#2A2523" />
+<path d="M114.254 306.635C119.444 308.524 124.493 307.742 125.532 304.887C126.571 302.033 123.206 298.188 118.016 296.299C112.827 294.41 107.777 295.193 106.738 298.047C105.699 300.901 109.064 304.746 114.254 306.635Z" fill="#C88A4E" />
+</g></g><g class="a6r"><g id="a6"><path d="M200.429 264.603C199.012 260.711 194.708 258.704 190.816 260.121C186.924 261.537 184.917 265.841 186.333 269.733L196.252 296.985C197.669 300.877 201.973 302.884 205.865 301.467C209.757 300.05 211.764 295.747 210.347 291.854L200.429 264.603Z" fill="#2A2523" />
+<path d="M207.746 306.635C212.936 304.746 216.301 300.901 215.262 298.047C214.223 295.192 209.173 294.41 203.984 296.299C198.794 298.188 195.429 302.033 196.468 304.887C197.507 307.742 202.556 308.524 207.746 306.635Z" fill="#C88A4E" />
+</g></g><g class="a7y"><g class="a7r"><g id="a7"><path d="M121.92 171.68C114.56 166.16 109.04 173.52 110.88 184.56C114.56 182.72 118.24 177.2 121.92 171.68Z" fill="#3A3330" />
+<path d="M125.6 219.52C140.843 219.52 153.2 207.987 153.2 193.76C153.2 179.533 140.843 168 125.6 168C110.357 168 98 179.533 98 193.76C98 207.987 110.357 219.52 125.6 219.52Z" fill="#2A2523" />
+<path d="M118.24 186.4C107.2 184.56 92.48 188.24 86.96 195.6C83.28 201.12 85.12 208.48 92.48 212.16C101.68 215.84 114.56 215.84 121.92 212.16L118.24 186.4Z" fill="#2A2523" />
+<path d="M85.5071 205.504C89.1871 212.864 100.227 215.624 111.267 214.704C116.787 213.784 120.467 211.024 122.307 207.344C113.107 209.184 98.3871 209.184 85.5071 205.504Z" fill="#C88A4E" />
+<path d="M120.08 211.24C124.653 211.24 128.36 208.357 128.36 204.8C128.36 201.243 124.653 198.36 120.08 198.36C115.507 198.36 111.8 201.243 111.8 204.8C111.8 208.357 115.507 211.24 120.08 211.24Z" fill="#C88A4E" />
+<path d="M87.88 202.04C90.9286 202.04 93.4 199.981 93.4 197.44C93.4 194.899 90.9286 192.84 87.88 192.84C84.8314 192.84 82.36 194.899 82.36 197.44C82.36 199.981 84.8314 202.04 87.88 202.04Z" fill="#141110" />
+<path opacity="0.35" d="M86.04 197.072C87.0562 197.072 87.88 196.619 87.88 196.06C87.88 195.501 87.0562 195.048 86.04 195.048C85.0237 195.048 84.2 195.501 84.2 196.06C84.2 196.619 85.0237 197.072 86.04 197.072Z" fill="white" />
+<path d="M88.4408 208.757C93.9608 211.517 99.4808 211.517 103.161 209.677" stroke-width="1.84" stroke-linecap="round" stroke="#141110" />
+<path d="M114.56 182.536C116.847 182.536 118.7 181.383 118.7 179.96C118.7 178.537 116.847 177.384 114.56 177.384C112.274 177.384 110.42 178.537 110.42 179.96C110.42 181.383 112.274 182.536 114.56 182.536Z" fill="#C88A4E" />
+<path d="M112.72 192.84C115.261 192.84 117.32 190.781 117.32 188.24C117.32 185.699 115.261 183.64 112.72 183.64C110.179 183.64 108.12 185.699 108.12 188.24C108.12 190.781 110.179 192.84 112.72 192.84Z" fill="#120F0E" />
+<path d="M114.192 188.24C115.005 188.24 115.664 187.581 115.664 186.768C115.664 185.955 115.005 185.296 114.192 185.296C113.379 185.296 112.72 185.955 112.72 186.768C112.72 187.581 113.379 188.24 114.192 188.24Z" fill="white" />
+<path opacity="0.35" d="M110.88 202.04C113.421 202.04 115.48 200.804 115.48 199.28C115.48 197.756 113.421 196.52 110.88 196.52C108.34 196.52 106.28 197.756 106.28 199.28C106.28 200.804 108.34 202.04 110.88 202.04Z" fill="#E58C8A" />
+<path d="M132.96 171.68C147.68 166.16 156.88 180.88 153.2 201.12C151.36 208.48 144 208.48 142.16 201.12C140.32 190.08 136.64 180.88 132.96 171.68Z" fill="#3A3330" />
+</g></g></g><g opacity="0.8">
+<g class="a8o"><g id="a8"><path d="M232 272H254Z" fill="black" />
+<path d="M232 272H254" stroke-width="2.5" stroke-linecap="round" stroke="#8A8A8A" />
+<path d="M238 286H256Z" fill="black" />
+<path d="M238 286H256" stroke-width="2.5" stroke-linecap="round" stroke="#8A8A8A" />
+<path d="M230 298H248Z" fill="black" />
+<path d="M230 298H248" stroke-width="2.5" stroke-linecap="round" stroke="#8A8A8A" />
+</g></g></g>
+</g>
+<defs>
+<clipPath id="clip0_2_6">
+<rect width="240" height="255" fill="white" transform="translate(40 80)" />
+</clipPath>
+</defs>
+</svg>

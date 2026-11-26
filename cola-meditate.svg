@@ -1,0 +1,117 @@
+<svg width="200" height="215" viewBox="0 0 200 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.petal { transform-box: view-box; transform-origin: 100px 196px; transform: rotate(var(--c));
+  animation: bloom 10s infinite; }
+@keyframes bloom {
+  0%   { transform: rotate(var(--c)); animation-timing-function: cubic-bezier(.45,0,.55,1); }
+  30%  { transform: rotate(var(--o)); animation-timing-function: cubic-bezier(.3,0,.5,1); }
+  40%  { transform: rotate(var(--f)); animation-timing-function: cubic-bezier(.45,0,.55,1); }
+  100% { transform: rotate(var(--c)); }
+}
+.breathe { transform-box: view-box; transform-origin: 100px 120px; animation: rise 10s infinite; }
+@keyframes rise {
+  0% { transform: translateY(0); animation-timing-function: cubic-bezier(.45,0,.55,1); }
+  30% { transform: translateY(-1.6px); animation-timing-function: cubic-bezier(.3,0,.5,1); }
+  40% { transform: translateY(-2.2px); animation-timing-function: cubic-bezier(.45,0,.55,1); }
+  100% { transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) { .petal, .breathe { animation: none; transform: rotate(var(--o)); } .breathe { transform: none; } }
+</style>
+<defs>
+<linearGradient id="petalBack" x1="0" y1="0" x2="0" y2="-37" gradientUnits="userSpaceOnUse"><stop stop-color="#FBE4EE"/><stop offset=".55" stop-color="#F39BBE"/><stop offset="1" stop-color="#E6417F"/></linearGradient>
+<linearGradient id="petalFront" x1="0" y1="0" x2="0" y2="-37" gradientUnits="userSpaceOnUse"><stop stop-color="#FDEFF4"/><stop offset=".5" stop-color="#F6AAC7"/><stop offset="1" stop-color="#EB5A8E"/></linearGradient>
+</defs>
+<g id="Pet=Cola, Pose=Meditate">
+<path id="shadow" opacity="0.07" d="M100 214C132.033 214 158 211.314 158 208C158 204.686 132.033 202 100 202C67.9675 202 42 204.686 42 208C42 211.314 67.9675 214 100 214Z" fill="black"/>
+<g id="tail">
+<path id="Vector" d="M134 198C166 202 180 176 170 154C166 145 171 137 179 141" stroke-width="10" stroke-linecap="round" stroke="#666970"/>
+</g>
+<g id="body">
+<path id="Vector_2" d="M62 205C52 166 64 122 100 116C136 122 148 166 138 205H62Z" fill="#6D7077"/>
+<path id="Vector_3" d="M86 124C86 150 92 168 100 175C108 168 114 150 114 124C108 131 92 131 86 124Z" fill="white"/>
+<path id="Vector_4" d="M68 206C78.4934 206 87 197.941 87 188C87 178.059 78.4934 170 68 170C57.5066 170 49 178.059 49 188C49 197.941 57.5066 206 68 206Z" fill="#767980"/>
+<path id="Vector_5" d="M132 206C142.493 206 151 197.941 151 188C151 178.059 142.493 170 132 170C121.507 170 113 178.059 113 188C113 197.941 121.507 206 132 206Z" fill="#767980"/>
+<path id="Vector_6" d="M95 155.5C95 151.358 91.6421 148 87.5 148C83.3579 148 80 151.358 80 155.5V197.5C80 201.642 83.3579 205 87.5 205C91.6421 205 95 201.642 95 197.5V155.5Z" fill="#6D7077"/>
+<path id="Vector_7" d="M87.5 209.5C93.0228 209.5 97.5 207.038 97.5 204C97.5 200.962 93.0228 198.5 87.5 198.5C81.9772 198.5 77.5 200.962 77.5 204C77.5 207.038 81.9772 209.5 87.5 209.5Z" fill="white"/>
+</g>
+<g id="hind-feet">
+<g id="hind-foot-left">
+<path id="Vector_8" d="M52 209C59.1797 209 65 206.314 65 203C65 199.686 59.1797 197 52 197C44.8203 197 39 199.686 39 203C39 206.314 44.8203 209 52 209Z" fill="white"/>
+<g id="Vector_9">
+<path d="M44 200V204ZM50 200V205Z" fill="black"/>
+<path d="M44 200V204M50 200V205" stroke-width="1.3" stroke-linecap="round" stroke="#CFC6BC"/>
+</g>
+</g>
+<g id="hind-foot-right">
+<path id="Vector_10" d="M148 209C155.18 209 161 206.314 161 203C161 199.686 155.18 197 148 197C140.82 197 135 199.686 135 203C135 206.314 140.82 209 148 209Z" fill="white"/>
+<g id="Vector_11">
+<path d="M156 200V204ZM150 200V205Z" fill="black"/>
+<path d="M156 200V204M150 200V205" stroke-width="1.3" stroke-linecap="round" stroke="#CFC6BC"/>
+</g>
+</g>
+</g>
+<g id="arm">
+<path id="Vector_12" d="M120 155.5C120 151.358 116.642 148 112.5 148C108.358 148 105 151.358 105 155.5V197.5C105 201.642 108.358 205 112.5 205C116.642 205 120 201.642 120 197.5V155.5Z" fill="#6D7077"/>
+<path id="Vector_13" d="M112.5 209.5C118.023 209.5 122.5 207.038 122.5 204C122.5 200.962 118.023 198.5 112.5 198.5C106.977 198.5 102.5 200.962 102.5 204C102.5 207.038 106.977 209.5 112.5 209.5Z" fill="white"/>
+</g>
+<g id="head" class="breathe">
+<path id="Vector_14" d="M78 102H122L120 124H80L78 102Z" fill="#6D7077"/>
+<g id="ear-left">
+<path id="Vector_15" d="M62 66L66 24L94 46L62 66Z" fill="#6D7077" stroke-width="6" stroke-linejoin="round" stroke="#6D7077"/>
+<path id="Vector_16" d="M69 56L70.5 34L86 47L69 56Z" fill="#E8A9B3"/>
+</g>
+<g id="ear-right">
+<path id="Vector_17" d="M138 66L134 24L106 46L138 66Z" fill="#6D7077" stroke-width="6" stroke-linejoin="round" stroke="#6D7077"/>
+<path id="Vector_18" d="M131 56L129.5 34L114 47L131 56Z" fill="#E8A9B3"/>
+</g>
+<path id="Vector_19" d="M100 116C123.748 116 143 99.8823 143 80C143 60.1177 123.748 44 100 44C76.2518 44 57 60.1177 57 80C57 99.8823 76.2518 116 100 116Z" fill="#6D7077"/>
+<path id="Vector_20" d="M86 96C86 90 114 90 114 96C114 108 107 114 100 114C93 114 86 108 86 96Z" fill="white"/>
+<path id="Vector_21" d="M94 90C96 86 104 86 106 90Z" fill="#6D7077"/>
+<g id="eyes-closed">
+<path d="M77.5 77.5C81 81.6 85 81.6 88.5 77.5" stroke="#2B2C30" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M111.5 77.5C115 81.6 119 81.6 122.5 77.5" stroke="#2B2C30" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+<path id="Vector_28" d="M95.5 91C95.5 88.6 104.5 88.6 104.5 91C104.5 93.2 101.6 96 100 96C98.4 96 95.5 93.2 95.5 91Z" fill="#E2A0AA"/>
+<path id="Vector_29" d="M100 96V99M100 99C97.5 103 92.5 103 90.5 100M100 99C102.5 103 107.5 103 109.5 100" stroke-width="1.8" stroke-linecap="round" stroke="#3A3B40"/>
+<g id="whiskers" opacity="0.85">
+<g id="Vector_30">
+<path d="M80 94L55 89Z" fill="black"/>
+<path d="M80 94L55 89" stroke-width="1.3" stroke-linecap="round" stroke="white"/>
+</g>
+<g id="Vector_31">
+<path d="M80 98L55 100Z" fill="black"/>
+<path d="M80 98L55 100" stroke-width="1.3" stroke-linecap="round" stroke="white"/>
+</g>
+<g id="Vector_32">
+<path d="M120 94L145 89Z" fill="black"/>
+<path d="M120 94L145 89" stroke-width="1.3" stroke-linecap="round" stroke="white"/>
+</g>
+<g id="Vector_33">
+<path d="M120 98L145 100Z" fill="black"/>
+<path d="M120 98L145 100" stroke-width="1.3" stroke-linecap="round" stroke="white"/>
+</g>
+</g>
+<path id="Vector_34" opacity="0.35" d="M72 94C74.7614 94 77 92.6569 77 91C77 89.3431 74.7614 88 72 88C69.2386 88 67 89.3431 67 91C67 92.6569 69.2386 94 72 94Z" fill="#F08FA0"/>
+<path id="Vector_35" opacity="0.35" d="M128 94C130.761 94 133 92.6569 133 91C133 89.3431 130.761 88 128 88C125.239 88 123 89.3431 123 91C123 92.6569 125.239 94 128 94Z" fill="#F08FA0"/>
+</g>
+<g id="lotus">
+<path d="M100 201.5C127 201.5 147 204 147 207.4C147 210.8 127 213.2 100 213.2C73 213.2 53 210.8 53 207.4C53 204 73 201.5 100 201.5Z" fill="#6FAE5A"/>
+<path d="M100 207.4L134 204.6" stroke="#5A9447" stroke-width="1.2" stroke-linecap="round"/>
+<g id="petals-back">
+<g class="petal" style="--c:-14deg;--o:-58deg;--f:-70deg"><g transform="translate(100 196) scale(1.32)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalBack)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+<g class="petal" style="--c:-7deg;--o:-30deg;--f:-37deg"><g transform="translate(100 196) scale(1.32)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalBack)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+<g class="petal" style="--c:0deg;--o:0deg;--f:0deg"><g transform="translate(100 196) scale(1.32)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalBack)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+<g class="petal" style="--c:7deg;--o:30deg;--f:37deg"><g transform="translate(100 196) scale(1.32)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalBack)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+<g class="petal" style="--c:14deg;--o:58deg;--f:70deg"><g transform="translate(100 196) scale(1.32)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalBack)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+</g>
+<ellipse cx="100" cy="186" rx="9" ry="5" fill="#F2CF5B"/><ellipse cx="100" cy="185" rx="6.5" ry="2.8" fill="#E7B93F"/>
+<g id="petals-front">
+<g class="petal" style="--c:-9deg;--o:-42deg;--f:-52deg"><g transform="translate(100 196) scale(1.08)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalFront)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+<g class="petal" style="--c:-3deg;--o:-15deg;--f:-19deg"><g transform="translate(100 196) scale(1.08)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalFront)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+<g class="petal" style="--c:3deg;--o:15deg;--f:19deg"><g transform="translate(100 196) scale(1.08)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalFront)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+<g class="petal" style="--c:9deg;--o:42deg;--f:52deg"><g transform="translate(100 196) scale(1.08)"><path d="M0 0C-9.5 -8 -10.5 -25 0 -37C10.5 -25 9.5 -8 0 0Z" fill="url(#petalFront)"/><path d="M0 -3V-33M-3.5 -6C-5.5 -14 -5 -24 -1.5 -31M3.5 -6C5.5 -14 5 -24 1.5 -31" stroke="#D94A7D" stroke-opacity=".35" stroke-width=".8" stroke-linecap="round"/></g></g>
+</g>
+<path d="M86 199C92 192.5 108 192.5 114 199C108 202 92 202 86 199Z" fill="#7FBF66"/>
+</g>
+</g>
+</svg>

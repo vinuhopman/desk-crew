@@ -10,7 +10,7 @@
   * { box-sizing: border-box; }
   body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: #fff; color: var(--ink);
     font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
-  main { max-width: 520px; text-align: center; margin: auto; padding: 40px 20px 56px; }
+  main { max-width: 520px; text-align: center; margin: 0 auto; padding: 40px 20px 56px; }
   .pets { display: flex; justify-content: center; align-items: flex-end; gap: 4px; background: var(--stage);
     border-radius: 20px; padding: 24px 16px 12px; margin-bottom: 32px; }
   .pets figure { margin: 0; }
@@ -34,6 +34,9 @@
   .nav a.cta { background: #111; color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 10px; white-space: nowrap; }
   .nav a:focus-visible { outline: 3px solid #111; outline-offset: 3px; border-radius: 6px; }
   @media (max-width: 520px) { .brand span { display: none; } .nav-in { gap: 14px; padding: 10px 16px; } }
+  .stage { background: var(--stage); border-radius: 20px; padding: 14px 14px 6px; margin-bottom: 32px; }
+  .scene { display: block; width: 100%; height: auto; }
+  .scene .name { font: 700 14px Inter, -apple-system, "Segoe UI", sans-serif; fill: #111; }
 </style>
 </head>
 <body>
@@ -45,15 +48,23 @@
   <a class="cta" href="https://chromewebstore.google.com/detail/cblpmfijmngdgfdpecnifgbmcfcnkeip" target="_blank" rel="noopener">Add to Chrome</a>
 </nav></header>
 <main>
-  <div class="pets" aria-hidden="true">
-    <figure><img src="dokie-idle.svg" alt=""><figcaption>Dokie</figcaption></figure>
-    <figure><img src="cleo-idle.svg" alt=""><figcaption>Cleo</figcaption></figure>
-    <figure><img src="cola-idle.svg" alt=""><figcaption>Cola</figcaption></figure>
+  <div class="stage" aria-hidden="true">
+    <svg class="scene" viewBox="0 0 480 212" role="img" aria-label="Dokie, Cleo and Cola sitting side by side">
+      <ellipse cx="240" cy="190" rx="220" ry="6" fill="#000" opacity=".05"/>
+      <image href="dokie-idle.svg" x="-14" y="-6" width="192" height="204"/>
+      <image href="cleo-idle.svg" x="144" y="-6" width="192" height="204"/>
+      <image href="cola-idle.svg" x="302" y="-6" width="192" height="204"/>
+      <g class="name">
+        <text transform="matrix(.9848 -.1736 .1736 .9848 62 206)">Dokie</text>
+        <text transform="matrix(.9888 .1495 -.1495 .9888 224 200)">Cleo</text>
+        <text transform="matrix(.998 .0639 -.0639 .998 378 202)">Cola</text>
+      </g>
+    </svg>
   </div>
   <h1>Sorry to see you go</h1>
   <p>Thank you for giving The Desk Crew a try. Dokie, Cleo and Cola hope the breaks did you some good.</p>
   <p>I’d really appreciate your feedback. What didn’t work for you, or what would have made you stay? Even a sentence helps me make it better.</p>
-  <a class="btn" href="https://vinuhopman.pages.dev/">Share feedback with Vinu</a>
+  <a class="btn" href="contact.html">Share feedback with Vinu</a>
   <p class="small">The extension and everything it stored have been removed from Chrome. Nothing was ever sent anywhere.<br>Changed your mind? <a href="./">Visit The Desk Crew page</a> · <a href="privacy.html">Privacy policy</a></p>
 </main>
 </body>

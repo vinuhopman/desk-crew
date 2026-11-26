@@ -35,6 +35,22 @@
   .nav a.cta { background: #111; color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 10px; white-space: nowrap; }
   .nav a:focus-visible { outline: 3px solid #111; outline-offset: 3px; border-radius: 6px; }
   @media (max-width: 520px) { .brand span { display: none; } .nav-in { gap: 14px; padding: 10px 16px; } }
+  .sec { font-size: 26px; line-height: 1.2; margin: 56px 0 18px; letter-spacing: -0.01em; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+  .feat { border: 1px solid #E2E2E2; border-radius: 16px; padding: 12px 12px 18px; }
+  .feat .pic { background: var(--stage); border-radius: 12px; height: 150px; display: grid; place-items: center; overflow: hidden; margin-bottom: 14px; }
+  .feat .pic img { height: 138px; width: auto; display: block; }
+  .feat .pic img.zoom { height: 180px; margin-top: -24px; }
+  .feat h3 { font-size: 18px; line-height: 1.3; margin: 0 6px 4px; }
+  .feat p { font-size: 15px; line-height: 1.5; color: #555; margin: 0 6px; }
+  .finding { background: #fff; border: 1.5px dashed #BDBDBD; border-radius: 10px; padding: 10px 14px; width: 210px; text-align: left; }
+  .finding .f-label { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #6B6B6B; font-weight: 600; }
+  .finding b { display: block; font-size: 30px; line-height: 1.15; }
+  .finding span:last-child { font-size: 13px; color: #3a3a3a; line-height: 1.35; display: block; }
+  .chips { list-style: none; padding: 0; margin: 20px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .chips li { margin: 0; border: 1px solid #E2E2E2; border-radius: 999px; padding: 6px 12px; font-size: 14px; color: #3a3a3a; }
+  .again { margin-top: 28px; }
 </style>
 </head>
 <body>
@@ -101,14 +117,28 @@
   </g>
 </svg></div>
   <h1>The Desk Crew: healthy desk habits</h1>
-  <p class="lead">A free Chrome extension. Three friendly pets remind you to move, stretch, rest your eyes and drink water while you work, and never during calls or presentations.</p>
-  <ul>
-    <li>Short breaks at a gentle rhythm you choose, one at a time</li>
-    <li>Every reminder explains why it helps, with its research source</li>
-    <li>Quiet during video calls, presentations, when you’re away and outside your working hours</li>
-    <li>No account, no tracking, no ads. Everything stays in your browser</li>
-  </ul>
+  <p class="lead">A free Chrome extension. Dokie, Cleo and Cola remind you to move, stretch, rest your eyes and drink water, and never during your meetings.</p>
   <p><a class="add" href="https://chromewebstore.google.com/detail/cblpmfijmngdgfdpecnifgbmcfcnkeip" target="_blank" rel="noopener">Add to Chrome, it’s free</a></p>
+
+  <h2 class="sec">What the crew does for you</h2>
+  <div class="grid">
+    <div class="feat"><div class="pic"><img class="zoom" src="dokie-walk.svg" alt=""></div>
+      <h3>Short breaks, your pace</h3><p>A stretch, an eye rest or a short walk, as often as you choose.</p></div>
+    <div class="feat"><div class="pic"><img src="cola-meditate.svg" alt=""></div>
+      <h3>Shows you how</h3><p>Follow the pet and the timer. Open a larger view if you like.</p></div>
+    <div class="feat"><div class="pic"><img src="dokie-sleep.svg" alt=""></div>
+      <h3>Quiet in meetings</h3><p>Nothing during calls, presentations, or when you’re away.</p></div>
+    <div class="feat"><div class="pic"><div class="finding"><span class="f-label">Research</span><b>−58%</b><span>blood-sugar spikes with a 5-minute walk</span></div></div>
+      <h3>Backed by research</h3><p>Every reminder tells you why it helps, with its source.</p></div>
+    <div class="feat"><div class="pic"><img src="cola-drink.svg" alt=""></div>
+      <h3>Water, gently</h3><p>Your daily goal, spread across your working hours.</p></div>
+    <div class="feat"><div class="pic"><svg width="96" height="110" viewBox="0 0 96 110" fill="none" aria-hidden="true"><path d="M26 48V34a22 22 0 0 1 44 0v14" stroke="#111" stroke-width="6" stroke-linecap="round"/><rect x="12" y="46" width="72" height="56" rx="12" fill="#FFFFFF" stroke="#111" stroke-width="4"/><path d="M48 66c-4-6-14-3-12 4 1.5 4.5 8 8 12 11 4-3 10.5-6.5 12-11 2-7-8-10-12-4Z" fill="#E0336F"/></svg></div>
+      <h3>Private by design</h3><p>No account, no tracking, no ads. It all stays in your browser.</p></div>
+  </div>
+  <ul class="chips" aria-label="Also">
+    <li>Any working hours, night shifts too</li><li>Seated options</li><li>Weekly stats, no guilt</li><li>One reminder at a time</li><li>Free</li>
+  </ul>
+  <p class="again"><a class="add" href="https://chromewebstore.google.com/detail/cblpmfijmngdgfdpecnifgbmcfcnkeip" target="_blank" rel="noopener">Add to Chrome, it’s free</a></p>
   <footer>
     <a href="privacy.html">Privacy policy</a>
     <span>Made with care by <a href="https://vinuhopman.pages.dev/">Vinu Hopman</a></span>
